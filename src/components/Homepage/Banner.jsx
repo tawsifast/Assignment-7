@@ -1,4 +1,5 @@
 import React from 'react';
+import BannerCard from '../BannerCard/BannerCard';
 
 const Banner = () => {
     return (
@@ -37,22 +38,10 @@ const Banner = () => {
         </div> */}
 
          <div className='grid grid-cols-4 gap-6'>
-                <div className='bg-base-200 p-8 text-center rounded-md flex flex-col items-center justify-center shadow-md'>
-                    <h2 className='text-2xl font-bold text-[#244D3F]'>10</h2>
-                    <p className='text-gray-600'>Total Friends</p>
-                </div>
-                <div className='bg-base-200 p-8 text-center rounded-md flex flex-col items-center justify-center shadow-md'>
-                    <h2 className='text-2xl font-bold text-[#244D3F]'>3</h2>
-                    <p className='text-gray-600'>On Track</p>
-                </div>
-                <div className='bg-base-200 p-8 text-center rounded-md flex flex-col items-center justify-center shadow-md'>
-                    <h2 className='text-2xl font-bold text-[#244D3F]'>6</h2>
-                    <p className='text-gray-600'>Need Attention</p>
-                </div>
-                <div className='bg-base-200 p-8 text-center rounded-md flex flex-col items-center justify-center shadow-md'>
-                    <h2 className='text-2xl font-bold text-[#244D3F]'>12</h2>
-                    <p className='text-gray-600'>Interactions This Month</p>
-                </div>
+               <BannerCard num={10} word={"Total Friends"}/>
+               <BannerCard num={3} word={"On Track"}/>
+               <BannerCard num={6} word={"Need Attention"}/>
+               <BannerCard num={12} word={"Interactions This Month"}/>
             </div>
 
 </div>

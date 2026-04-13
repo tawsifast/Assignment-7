@@ -5,6 +5,7 @@ import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
 import Navbar from "../components/shared/Navbar";
 import Timeline from "../pages/Timeline/Timeline";
 import Stats from "../pages/Stats/Stats";
+import FriendsDetails from "../pages/FriendsDetails/FriendsDetails";
 
 
 
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
         {
             path:"/stats",
             element:<Stats/>
+        },
+        {
+            path:"/details/:id",
+            element:<FriendsDetails/>
         },
     ],
     errorElement:<NotFoundPage/>
