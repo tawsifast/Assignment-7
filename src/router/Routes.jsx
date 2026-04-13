@@ -3,6 +3,8 @@ import RootLayout from "../layout/RootLayout";
 import Homepage from "../pages/Homepage/Homepage";
 import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
 import Navbar from "../components/shared/Navbar";
+import Timeline from "../pages/Timeline/Timeline";
+import Stats from "../pages/Stats/Stats";
 
 
 
@@ -18,19 +20,15 @@ export const router = createBrowserRouter([
         },
         
         {
-            path:"/aa",
-            element:<Navbar/>
+            path:"/timeline",
+            element:<Timeline/>,
         },
         
         {
-            path:"/",
-            element:<Homepage/>
+            path:"/stats",
+            element:<Stats/>
         },
-        
-       
     ],
     errorElement:<NotFoundPage/>
-
 }
-
 ])

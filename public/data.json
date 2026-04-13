@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Eren Yeager",
+    "picture": "/image/eren-yeager-pfp-6.png",
+    "email": "eren@example.com",
+    "days_since_contact": 18,
+    "status": "Overdue",
+    "tags": ["Fighter", "Determined"],
+    "bio": "A strong-willed soldier fighting for freedom.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Mikasa Ackerman",
+    "picture": "/image/Mikasaa.jpg",
+    "email": "mikasa@example.com",
+    "days_since_contact": 10,
+    "status": "Almost Due",
+    "tags": ["Loyal", "Protector"],
+    "bio": "Highly skilled and deeply loyal to her friends.",
+    "goal": 14,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 3,
+    "name": "Monkey D. Luffy",
+    "picture": "/image/Luffy.jpg",
+    "email": "luffy@example.com",
+    "days_since_contact": 5,
+    "status": "On-Track",
+    "tags": ["Pirate", "Fun"],
+    "bio": "Future Pirate King with a carefree spirit.",
+    "goal": 14,
+    "next_due_date": "2025-07-30"
+  },
+  {
+    "id": 4,
+    "name": "Nezuko Kamado",
+    "picture": "/image/Nezuko.jpg",
+    "email": "nezuko@example.com",
+    "days_since_contact": 16,
+    "status": "Overdue",
+    "tags": ["Kind", "Quiet"],
+    "bio": "A gentle soul with hidden strength.",
+    "goal": 14,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 5,
+    "name": "Giyu Tomioka",
+    "picture": "/image/Giyu.jpg",
+    "email": "giyu@example.com",
+    "days_since_contact": 13,
+    "status": "Almost Due",
+    "tags": ["Calm", "Hashira"],
+    "bio": "A quiet and composed swordsman.",
+    "goal": 14,
+    "next_due_date": "2025-07-21"
+  },
+  {
+    "id": 6,
+    "name": "Takagi",
+    "picture": "/image/Takagi.jpg",
+    "email": "takagi@example.com",
+    "days_since_contact": 3,
+    "status": "On-Track",
+    "tags": ["Teasing", "Smart"],
+    "bio": "Loves teasing Nishikata in fun ways.",
+    "goal": 14,
+    "next_due_date": "2025-08-01"
+  },
+  {
+    "id": 7,
+    "name": "Nishikata",
+    "picture": "/image/Nishikata.jpg",
+    "email": "nishikata@example.com",
+    "days_since_contact": 12,
+    "status": "Almost Due",
+    "tags": ["shy", "competitive"],
+    "bio": "Always trying to win against Takagi.",
+    "goal": 14,
+    "next_due_date": "2025-07-23"
+  },
+  {
+    "id": 8,
+    "name": "Levi Ackerman",
+    "picture": "/image/Levi.jpg",
+    "email": "levi@example.com",
+    "days_since_contact": 20,
+    "status": "Overdue",
+    "tags": ["Clean", "Strong"],
+    "bio": "Humanity's strongest soldier.",
+    "goal": 14,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 9,
+    "name": "Mitsuha Miyamizu",
+    "picture": "/image/Mitsuha.jpg",
+    "email": "mitsuha@example.com",
+    "days_since_contact": 7,
+    "status": "On-Track",
+    "tags": ["Dreamer", "Kind"],
+    "bio": "A girl dreaming of a different life.",
+    "goal": 14,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 10,
+    "name": "Anya Forger",
+    "picture": "/image/Anya.jpg",
+    "email": "anya@example.com",
+    "days_since_contact": 15,
+    "status": "Almost Due",
+    "tags": ["Cute", "Funny"],
+    "bio": "A telepathic child with a big heart.",
+    "goal": 14,
+    "next_due_date": "2025-07-19"
+  }
+]
