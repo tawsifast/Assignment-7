@@ -10,9 +10,9 @@ const FriendsSection = () => {
   console.log(frineds);
   return (
     <div className="w-10/12 mx-auto">
-      <h2 className="font-bold text-4xl">Your Friends</h2>
+      <h2 className="font-bold text-4xl text-center md:text-left">Your Friends</h2>
 
-      <div className="grid grid-cols-4 justify-between gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between gap-6">
         {frineds.map((friend) => {
           return <FriendsCard key={friend.id} friend={friend}/>;
         })}

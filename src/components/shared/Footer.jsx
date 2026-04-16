@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
 
-        <footer className="bg-[#244D3F] text-white py-8 sm:py-10 lg:py-12">
+  <footer className="bg-[#244D3F] text-white py-8 sm:py-10 lg:py-12">
   <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-5 sm:space-y-6 lg:space-y-8 ">
     
     {/* Title */}
@@ -46,8 +46,8 @@ const Footer = () => {
     <hr className='opacity-30'/>
 
     {/* Footer Bottom */}
-    <div className='flex justify-between text-gray-400'>
-        <div> <p className=" text-xs sm:text-sm">
+    <div className='flex flex-col justify-center items-center md:flex-row md:justify-between text-gray-400'>
+        <div> <p className=" text-sm mb-2 sm:text-md">
          © 2026 My Website. All rights reserved.
          </p>
         </div>
