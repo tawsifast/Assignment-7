@@ -1,5 +1,6 @@
 import React, { Children, createContext, useState } from 'react';
 import FriendsCard from '../components/FriendsCard/FriendsCard';
+import { toast } from 'react-toastify';
 
 
 
@@ -11,9 +12,10 @@ const FriendsProvider = ({children}) => {
     
         const handleText = (currentFriend) =>{
     
-        const isExistFrined = textList.find((text)=> text.id === currentFriend.id);
-        if(isExistFrined){
-            alert("The friend call history is here")
+        const isExistFriend = textList.find((text)=> text.id === currentFriend.id);
+
+        if(isExistFriend){
+            toast.error("This text is already in the timeline")
         }else{
             setTextList([...textList, currentFriend])
         }
@@ -25,9 +27,9 @@ const FriendsProvider = ({children}) => {
     
         const handleCall = (currentFriend) =>{
     
-        const isExistFrined = callList.find((call)=> call.id === currentFriend.id);
-        if(isExistFrined){
-            alert("The friend call history is here")
+        const isExistFriend = callList.find((call)=> call.id === currentFriend.id);
+        if(isExistFriend){
+           toast.error("This call is already in the timeline")
         }else{
             setcallList([...callList, currentFriend])
         }
@@ -39,9 +41,9 @@ const FriendsProvider = ({children}) => {
     
         const handleVideo = (currentFriend) =>{
     
-        const isExistFrined = videoList.find((video)=> video.id === currentFriend.id);
-        if(isExistFrined){
-            alert("The friend video call history is here")
+        const isExistFriend = videoList.find((video)=> video.id === currentFriend.id);
+        if(isExistFriend){
+           toast.error("This video is already in the timeline")
         }else{
             setVideoList([...videoList, currentFriend])
         }

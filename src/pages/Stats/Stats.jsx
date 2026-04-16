@@ -14,7 +14,12 @@ const Stats = () => {
   ];
 
   return (
-    <div className="my-10">
+    <div className="my-10 w-10/12 mx-auto">
+        <div>
+            <h2 className="font-bold text-3xl">Friendship Analytics</h2>
+        </div>
+        <div className="my-10 shadow-lg p-10">
+            <p className="text-xl text-gray-600">By Interaction Type</p>
     <PieChart
       style={{
         width: "100%",
@@ -40,6 +45,7 @@ const Stats = () => {
       <Tooltip />
       <Legend />
     </PieChart>
+    </div>
     </div>
   );
 };

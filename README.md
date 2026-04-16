@@ -1,16 +1,29 @@
-# React + Vite
+1. Name of your project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    Ans: Friend Interaction Timeline App
+2. A short description
 
-Currently, two official plugins are available:
+    Ans: A React-based web application where users can manage friends and track their interaction history (Call, Text, Video) in a dynamic timeline with filtering and real-time notifications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+3. Technologies you used
 
-## React Compiler
+    Ans: 
+I. React (Component-based UI)  
+II. React Router (Routing)  
+III. Tailwind CSS & DaisyUI (Styling)  
+IV. React Toastify (Notifications)  
+V. React Icons (UI Icons)  
+VI. HTML5 & CSS3 (Markup & Styling)
+VII. Recharts 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+4. key features of your project
+  
+    Ans: 
+    I. Dynamic Interaction Tracking
+Users can add Call, Text, or Video actions for each friend, which are instantly displayed in the timeline.
 
-## Expanding the ESLint configuration
+    II. Smart Filtering System
+Easily filter the timeline by interaction type (Call, Text, Video) using an input-based filter.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    III. Real-time Feedback (Toast Notifications)
+Shows success messages when actions are added and error alerts for duplicate entries.

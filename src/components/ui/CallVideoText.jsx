@@ -3,7 +3,7 @@ import React from "react";
 const CallVideoText = ({ call, img, name }) => {
   return (
     <div>
-      <div className="w-10/12 mx-auto flex items-center p-8 rounded-lg  gap-10 shadow-md my-10">
+      <div className="flex items-center p-8 rounded-lg gap-10 shadow-md">
         <div>
           <img src={img} alt="" />
         </div>

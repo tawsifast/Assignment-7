@@ -11,7 +11,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <FriendsProvider>
       <RouterProvider router={router} />
-      <ToastContainer />
+      <ToastContainer autoClose={1500}/>
     </FriendsProvider>
   </StrictMode>,
 );

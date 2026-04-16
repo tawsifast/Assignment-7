@@ -1,5 +1,6 @@
 import React from 'react';
 import BannerCard from '../BannerCard/BannerCard';
+import { LuPlus } from 'react-icons/lu';
 
 const Banner = () => {
     return (
@@ -12,7 +13,7 @@ const Banner = () => {
         Your personal shelf of meaningful connections. Browse, tend, and nurture the <br />
         relationships that matter most.
       </p>
-      <button className="btn bg-[#244D3F] text-white mb-10">Add a Friend</button>
+      <button className="btn bg-[#244D3F] text-white mb-10"><LuPlus />Add a Friend</button>
     </div>
   </div>
 </div>
