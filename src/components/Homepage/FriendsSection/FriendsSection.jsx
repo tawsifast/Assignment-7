@@ -1,6 +1,7 @@
 import React, { use } from "react";
 import FriendsCard from "../../FriendsCard/FriendsCard";
 
+
 const friendsPromise = fetch("/data.json").then((res) => res.json());
 // console.log(friendsPromise);
 

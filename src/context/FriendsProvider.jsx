@@ -17,7 +17,8 @@ const FriendsProvider = ({children}) => {
         if(isExistFriend){
             toast.error("This text is already in the timeline")
         }else{
-            setTextList([...textList, currentFriend])
+            setTextList([...textList, currentFriend]);
+            toast.success(`Text with ${currentFriend.name}`)
         }
         console.log(currentFriend, textList, "Friend");
     
@@ -31,7 +32,8 @@ const FriendsProvider = ({children}) => {
         if(isExistFriend){
            toast.error("This call is already in the timeline")
         }else{
-            setcallList([...callList, currentFriend])
+            setcallList([...callList, currentFriend]);
+            toast.success(`Call with ${currentFriend.name}`)
         }
         console.log(currentFriend, callList, "Friend");
     
@@ -45,7 +47,8 @@ const FriendsProvider = ({children}) => {
         if(isExistFriend){
            toast.error("This video is already in the timeline")
         }else{
-            setVideoList([...videoList, currentFriend])
+            setVideoList([...videoList, currentFriend]);
+            toast.success(`Video with ${currentFriend.name}`)
         }
         console.log(currentFriend, videoList, "Friend");
     
