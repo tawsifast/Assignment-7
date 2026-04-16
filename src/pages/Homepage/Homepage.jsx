@@ -7,6 +7,7 @@ const Homepage = () => {
     return (
         <div>
             <Banner/>
+            <hr className='my-10 opacity-10 w-10/12 mx-auto'/>
             <Suspense fallback={<div className="text-center my-10">
                 <span className="loading loading-spinner loading-lg"></span>
                 </div>}>

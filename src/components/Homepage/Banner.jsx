@@ -45,7 +45,9 @@ const Banner = () => {
                <BannerCard num={12} word={"Interactions This Month"}/>
             </div>
 
+
 </div>
+
 
 
     );
