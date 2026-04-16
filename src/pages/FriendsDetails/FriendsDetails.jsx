@@ -38,6 +38,7 @@ const FriendsDetails = () => {
         alt="Movie" 
         className='w-34 h-34 rounded-full'
       />
+      <h3 className='font-bold text-lg'>{name}</h3>
       <p><span className={`badge text-white p-2 ${
         status === "Overdue"? "badge-error": status === "Almost Due"? "badge-warning" : "badge-success"}`}>{status}</span></p>
 
