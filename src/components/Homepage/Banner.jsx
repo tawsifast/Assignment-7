@@ -4,7 +4,7 @@ import { LuPlus } from 'react-icons/lu';
 
 const Banner = () => {
     return (
-        <div className='w-10/12 mx-auto my-20 bg-base-200 rounded-lg p-5'>
+        <div className='w-10/12 mx-auto my-20 bg-base-200 rounded-lg p-10'>
             <div className="hero ">
   <div className="hero-content text-center">
     <div className="space-y-2.5">
