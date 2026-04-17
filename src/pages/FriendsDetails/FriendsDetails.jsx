@@ -44,7 +44,7 @@ const FriendsDetails = () => {
 
          <div className="flex flex-wrap gap-2">
           {tags.map((tag, index) => (
-            <span key={index} className="badge badge-outline">{tag}</span>
+            <span key={index} className="badge bg-green-200 font-semibold">{tag}</span>
           ))}
         </div>
              <p className='text-center text-gray-500 my-2'>{bio}</p>
