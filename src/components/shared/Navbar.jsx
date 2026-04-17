@@ -14,7 +14,7 @@ const Navbar = () => {
           </button>
         </div>
         <div className="flex-none">
-          <ul className=" menu menu-horizontal px-1 font-medium md:font-semibold text-xs md:text-[15px] gap-1 md:gap-5 ">
+          <ul className=" menu menu-horizontal px-1 font-medium md:font-semibold text-xs md:text-[15px] gap-1 md:gap-4 ">
         <li><NavLink to={"/"} className={({isActive})=>`flex items-center gap-1 md:gap-2 px-2 md:px-4 ${isActive? "bg-[#244D3F] text-white":''}`}><PiArrowFatUp />Home</NavLink>
        </li>
             

@@ -51,8 +51,8 @@ const FriendsDetails = () => {
              <p className='text-gray-500 text-center'>Preferred : {email}</p>
         </div>
 
-        <div className='flex flex-row md:flex-col gap-3 md:gap-7 mt-5 text-center '>
-            <p className='font-semibold shadow-md p-3 flex items-center justify-center gap-3'><RiNotificationSnoozeLine />Snooze 2 weeks</p>
+        <div className='flex flex-row md:flex-col gap-3 md:gap-7 mt-5 text-center justify-center '>
+            <p className='font-semibold shadow-md p-3 flex items-center justify-center gap-1 sm:gap-3'><RiNotificationSnoozeLine />Snooze 2 weeks</p>
             <p className='font-semibold shadow-md p-3 flex items-center justify-center gap-3'><LuArchiveRestore />Archive</p>
             <p className='font-semibold shadow-md p-3 text-red-500 flex items-center justify-center gap-3'><RiDeleteBinLine />Delete</p>
         </div>
@@ -69,7 +69,7 @@ const FriendsDetails = () => {
         <div className=' bg-base-200 flex justify-between shadow-md p-10'>
             <div className='space-y-2'>
                 <h2 className='font-semibold text-[#244D3F]'>Relationship Goal</h2>
-                <p className=''> Connect every <span className='font-bold'>30 days</span></p>
+                <p className=''> Connect every <span className='font-bold'>{} days</span></p>
             </div>
             <button className='btn'>Edit</button>
         </div>
@@ -79,11 +79,13 @@ const FriendsDetails = () => {
             <div className=' md:gap-10 gap-5 items-center grid grid-cols-3  md:grid-cols-3'>
 
 
-                <button onClick={()=>handleCall(expectedFriend)} className='btn py-7 md:py-10 px-5 md:px-15 flex flex-col text-md md:text-lg'>
+                <button onClick={()=>handleCall(expectedFriend)} className='btn py-7 md:py-10 px-5 md:px-10 flex flex-col text-md md:text-lg'>
                 <img src={call} alt="" className='w-5 md:w-8'/>Call</button>
-                <button onClick={()=>handleText(expectedFriend)} className='btn py-7 md:py-10 px-5 md:px-15 flex flex-col text-md md:text-lg'>
+
+                <button onClick={()=>handleText(expectedFriend)} className='btn py-7 md:py-10 px-5 md:px-10 flex flex-col text-md md:text-lg'>
                 <img src={text} alt="" className='w-5 md:w-8'/>Text</button>
-                <button onClick={()=>handleVideo(expectedFriend)} className='btn py-7 md:py-10 px-5 md:px-15 flex flex-col text-md md:text-lg'>
+
+                <button onClick={()=>handleVideo(expectedFriend)} className='btn py-7 md:py-10 px-5 md:px-10 flex flex-col text-md md:text-lg'>
                 <img src={video} alt="" className='w-5 md:w-8'/>Video</button>
                
             </div>

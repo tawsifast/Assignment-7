@@ -37,7 +37,7 @@ const Banner = () => {
            
         </div> */}
 
-         <div className='grid grid-cols-2  md:grid-cols-4 gap-6'>
+         <div className='grid grid-cols-2 md:grid-cols-4 gap-6'>
                <BannerCard num={10} word={"Total Friends"}/>
                <BannerCard num={3} word={"On Track"}/>
                <BannerCard num={6} word={"Need Attention"}/>
