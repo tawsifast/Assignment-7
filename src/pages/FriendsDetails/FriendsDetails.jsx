@@ -69,7 +69,7 @@ const FriendsDetails = () => {
         <div className=' bg-base-200 flex justify-between shadow-md p-10'>
             <div className='space-y-2'>
                 <h2 className='font-semibold text-[#244D3F]'>Relationship Goal</h2>
-                <p className=''> Connect every <span className='font-bold'>{} days</span></p>
+                <p className=''> Connect every <span className='font-bold'>{goal} days</span></p>
             </div>
             <button className='btn'>Edit</button>
         </div>
