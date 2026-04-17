@@ -1,9 +1,9 @@
 import React from 'react';
 
-const BannerCard = ({num, word}) => {
+const BannerCard = ({num, word, className}) => {
     return (
         <div>
-            <div className='bg-base-200 p-8 text-center h-full rounded-md flex flex-col items-center justify-center shadow-md'>
+            <div className={`bg-base-200 p-8 text-center h-full rounded-md flex flex-col items-center justify-center shadow-md ${className}`}>
                     <h2 className='text-2xl font-bold text-[#244D3F]'>{num}</h2>
                     <p className='text-gray-600'>{word}</p>
                 </div>
